@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,th {
@@ -19,9 +20,25 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;   
+         }
+
         thead {
-            background-color: gray;
+            background-color: rgb(39, 39, 39);
             color: white;
+        }
+
+        thead> tr> th {
+            position: sticky;
+            top: 0;
+            background-color:  rgb(39, 39, 39);
         }
 
         th.fiz {
@@ -37,10 +54,11 @@
 </head>
 <body>
     <table>
+        <caption> População das Unidades Federativas</caption>
       <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" >População</th>
         </tr>
       </thead>
       <tbody>
@@ -57,7 +75,7 @@
       </tbody>
       <tfoot>
         <tr>
-            <th class="fiz">Total de Habitantes</th>
+            <th class="fiz" scope="row">Total de Habitantes</th>
             <td> <strong>84 352 783</strong></td>
         </tr>
       </tfoot>
