@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho ()">
     <header>
         <h1>Meu Site</h1>
         <i class="material-icon">menu</i>
@@ -30,5 +31,13 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod consequatur repudiandae ratione ducimus officia, voluptatem temporibus dolorum ea beatae tempora? Ipsum eveniet impedit dicta, assumenda quisquam voluptas earum quis modi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid optio laudantium ratione magnam soluta tempore velit, dignissimos, molestiae accusantium error, perferendis aspernatur quisquam quibusdam eum esse facere recusandae minus iure?</p>
         </article>
     </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >=768) {
+                itens.style.display = block
+
+            }
+        }
+    </script>
 </body>
 </html>
