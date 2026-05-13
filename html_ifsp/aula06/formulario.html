@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset id="cadastro">
+            <legend>Matricular aluno</legend>
+            <div>
+                <label for="txtNome">Nome: </label>
+                <input type="text" 
+                name ="cNome" 
+                id="txtNome" 
+                size="40" 
+                maxlength="50"
+                placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <label for="txtEmail">Email: </label>
+                <input type="email" 
+                name="cEmail" 
+                id="txtEmail" 
+                size="40" 
+                maxlength="30" 
+                placeholder="Digite seu email">
+            </div>
+
+            <div>
+                Idade:
+                <input type="number"
+                min="15" 
+                max="40" 
+                placeholder="Informe sua idade">
+            </div>
+
+            <div>Data de nascimento: 
+                <input type="date">
+            </div>
+
+            <div>Sexo:
+                <input type="radio" 
+                name="cSexo" 
+                id="radioMasc" 
+                value="M">
+                <label for="radioMasc">Masculino</label> 
+
+                <input type="radio"  
+                name="cSexo" 
+                id="radioFem" 
+                value="F">
+                <label for="radioFem">Feminino</label>
+            </div>
+
+            <div>Estado:
+                <select name="cEstado" id="dropEstado">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sul">
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+                </select>
+
+            </div>
+            <div>Cidade:
+                <input type="text"
+                name="cCidade"
+                id="txtCidade"
+                list="listCidades">
+
+                <datalist id="listCidades">
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Araraquara"></option>
+                    <option value="São Carlos"></option>
+                    <option value="Ibaté"></option>
+                    <option value="Rio Claro"></option>
+                </datalist>
+            </div>
+
+            <div>Fale sobre você:
+                <textarea name="cFale" id="txtFale"
+                rows="6"
+                cols="45"
+                placeholder="Fale sobre você">
+                </textarea>
+            </div>
+
+            <div>Cor da camiseta:
+                <input type="color" name="cColor" id="escolherCor">
+            </div>
+
+            <div>Nível de conhecimento: 
+                Baixo<input type="range" name="cNivel" id="rangeNivel"
+                min="0"
+                max="10"
+                step="2">Alto
+            </div>
+
+            <div>
+                <input type="checkbox" name="cNoticiais" id="checkNoticias">
+                Quero receber emails com notícias
+            </div>
+            <br>
+            <div>Foto: <input type="file" name="foto[]" id="foto" multiple><br><br></div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="APAGAR">
+        </fieldset>
+    </form>
+</body>
+</html>
