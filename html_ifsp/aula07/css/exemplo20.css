@@ -1,0 +1,16 @@
+p {
+    margin: 30px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 15px;
+
+    width: 70%;
+
+    padding: 15px;
+    font-size: 20pt;
+    text-align: justify;
+
+    box-shadow: -5px 5px 8px #000000;
+}

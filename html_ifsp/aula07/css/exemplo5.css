@@ -1,0 +1,19 @@
+.vermelho {
+    color: #FF0000;
+}
+
+h2 {
+    color: #00FF00;
+}
+
+h3#este {
+    color: #0000FF;
+}
+
+p.este {
+    color: #B0B000;
+}
+
+strong em {
+    color: #00FFFF;
+}

@@ -1,0 +1,24 @@
+.a1:link {
+    color: blue;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.a2:hover {
+    color: red;
+    background-color: white;
+    border: 3px solid black;
+    text-decoration: none;
+}
+
+.a3:active {
+    color: green;
+    border: 13px solid green;
+    text-decoration: none;
+}
+
+.a4:visited {
+    color: black;
+    background-color: blue;
+    text-decoration: none;
+}

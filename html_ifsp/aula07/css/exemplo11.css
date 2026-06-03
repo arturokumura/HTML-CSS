@@ -1,0 +1,10 @@
+.container {
+    width: 400px;
+    height: 500px;
+    border: 2px, solid, #000000;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg?utm_source=pt.wikiquote.org&utm_campaign=index&utm_content=original);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+}

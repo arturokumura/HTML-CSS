@@ -1,0 +1,8 @@
+.list-type {
+list-style-type: circle;
+} 
+
+
+.list-image {
+    list-style-image: url(../html/download.png);
+}

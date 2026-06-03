@@ -1,0 +1,12 @@
+p { color: red;}
+
+h1 { color: #FF6347;}
+
+h2 { color: rgb(0, 128, 0);}
+
+h3 { color: rgba(0, 0, 255, 0.3); }
+
+h4 { color: hsl(240, 100%, 50%) }
+
+
+h5 { color: hsla(240, 100%, 50%, 0.3); }

@@ -1,0 +1,17 @@
+.margem {
+/* Definição de Valores para Cada Direção Individual */
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-left: 40px;
+/* border: largura estilo cor */
+border: 2px solid #FF0000;
+}
+
+.cor {
+background-color: #FFFF00;
+}

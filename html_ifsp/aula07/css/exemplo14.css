@@ -1,0 +1,13 @@
+table {
+width: 100%;
+border-collapse: collapse; /* Junta as bordas das células */
+margin: 20px 0;
+}
+th, td {
+border: 1px solid #333; /* Adiciona borda em torno das células */
+padding: 10px;
+}
+
+th {
+    background-color: rgb(199, 176, 176);
+}
