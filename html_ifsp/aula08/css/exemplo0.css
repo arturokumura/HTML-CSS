@@ -38,6 +38,9 @@ a {
     background: orange;
 }
 
+.item:hover {
+    box-shadow: 3px 3px 3px #404040;
+}
 .rodape {
     border-bottom: 1px #000000 solid;
     text-align: right;
