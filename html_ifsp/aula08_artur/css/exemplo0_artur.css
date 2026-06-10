@@ -1,0 +1,48 @@
+body {
+    font-family: arial;
+    font-size: 150%;
+    background: #BBBBBB;
+}
+
+.titulo1 {
+    display: inline-block;
+}
+
+.menu {
+    float: right;
+}
+
+.principal {
+    background: white;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 6px 8px #404040;
+}
+
+a {
+    /*links não sublinhados */
+    text-decoration: none;
+    /*links em branco */
+    color: white;
+}
+
+.item {
+    /*itens lado a lado */
+    display: inline-block;
+
+    /*textos dos itens no meio de uma caixa*/
+    /*definimos uma margem interna igual para todos */
+    padding: 20px;
+
+    /*fundo laranja */
+    background: orange;
+}
+
+.item:hover {
+    box-shadow: 3px 3px 3px #404040;
+}
+.rodape {
+    border-bottom: 1px #000000 solid;
+    text-align: right;
+    font-size: 80%;
+}
